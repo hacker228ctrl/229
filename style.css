@@ -1,0 +1,136 @@
+/* Roblox Page Styles */
+.roblox-header {
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    border-bottom: 4px solid #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roblox-hero {
+    background: linear-gradient(to bottom, #ffecec, #fff3f3);
+    padding: 80px 20px;
+    text-align: center;
+    color: #111;
+}
+
+.roblox-hero h1 {
+    font-size: 42px;
+    color: #d60000;
+    margin-bottom: 15px;
+}
+
+.roblox-hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.roblox-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.roblox-button:hover {
+    background-color: #c70000;
+}
+
+.roblox-showcase {
+    background-color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.roblox-showcase h2 {
+    font-size: 32px;
+    color: #d60000;
+    margin-bottom: 30px;
+}
+
+.blocky-card {
+    background-color: #f0f0f0;
+    border: 3px solid #ff5a5a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(255,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.blocky-card:hover {
+    transform: scale(1.05);
+}
+
+.blocky-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.roblox-create {
+    background-color: #ffe0e0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.roblox-create h2 {
+    font-size: 30px;
+    color: #aa0000;
+    margin-bottom: 15px;
+}
+
+.roblox-create p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.studio-btn {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.studio-btn:hover {
+    background-color: #c70000;
+}
+
+.roblox-tips {
+    background-color: #fff6f6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.roblox-tips h2 {
+    font-size: 28px;
+    color: #d60000;
+    margin-bottom: 20px;
+}
+
+.roblox-tips ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: auto;
+}
+
+.roblox-tips li {
+    background-color: #ffecec;
+    margin: 10px 0;
+    padding: 14px;
+    border-left: 6px solid #ff0000;
+    font-size: 18px;
+    border-radius: 6px;
+}
